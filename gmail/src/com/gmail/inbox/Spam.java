@@ -6,7 +6,7 @@ public class Spam {
 	}
 
 	public void delete() {
-		System.out.println("delete spam msg");
+		System.out.println("delete spam ");
 	}
 
 	public static void main(String[] args) {
