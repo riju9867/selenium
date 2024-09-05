@@ -7,7 +7,7 @@ import com.gmail.inbox.Spam;
 
 public class Msg {
 	public void textmsg() {
-		System.out.println("type your msg");
+		System.out.println("type your Name");
 	}
 
 	public void voicemsg() {
