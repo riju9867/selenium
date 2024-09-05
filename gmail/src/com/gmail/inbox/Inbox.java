@@ -4,7 +4,7 @@ public class Inbox {
 	public void compose()
 
 	{
-		System.out.println("select msg");
+		System.out.println("select riju");
 	}
 
 	public void delete() {
