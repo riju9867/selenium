@@ -1,31 +1,48 @@
 package com.oops.overloading;
 
-public class Signupp
+public class Signupp 
 {
 	String name;
 	String email;
 	long phone;
 	int age;
 	String pwd;
-	public void signupp(String name,String email,long phone ,int age ,String pwd)
+
+	// Constructor with email
+	public Signupp(String name, String email, long phone, int age, String pwd) 
 	{
-		this.name=name;
-		this.email=email;
-		this.phone=phone;
-		this.age=age;
-		this.pwd=pwd;
-	}
-	public void signupp(String name,long phone,int age,String pwd)
-	{
-		this.name=name;
-		this.phone=phone;
-		this.age=age;
-		this.pwd=pwd;
-	}
-	public static void main(String[] args)
-	{
-		signupp s1=new signupp("customer","cus@gmail.com",555246554,15,"cust");
-		signupp s2=new signupp("customer","cus2@gmail.com",12345678,17,"cust2");
+		this.name = name;
+		this.email = email;
+		this.phone = phone;
+		this.age = age;
+		this.pwd = pwd;
 	}
 
+	// Constructor without email
+	public Signupp(String name, long phone, int age, String pwd) 
+	{
+		this.name = name;
+		this.phone = phone;
+		this.age = age;
+		this.pwd = pwd;
+	}
+
+	// Display user details
+	public void display() 
+	{
+		System.out.println("Name: " + name);
+		System.out.println("Email: " + (email != null ? email : "Not Provided"));
+		System.out.println("Phone: " + phone);
+		System.out.println("Age: " + age);
+		System.out.println("Password: " + pwd);
+	}
+
+	public static void main(String[] args)
+	{
+		// Creating an object using the constructor
+		Signupp s1 = new Signupp("customer", "cus@gmail.com", 555246554L, 15, "cust");
+		s1.display(); // Display user details
+	}
 }
+
+

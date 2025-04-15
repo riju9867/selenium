@@ -11,7 +11,7 @@ public class N_to_Power_of_P
 		int n = sc.nextInt();
 		int p = sc.nextInt();
 		int pow=1;
-		for(int i=1;i<=p;i++)
+		for(int i=1;i<=p;i++) 
 		{
 			pow=pow*n;
 		}

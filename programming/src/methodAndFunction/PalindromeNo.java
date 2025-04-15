@@ -2,14 +2,7 @@ package methodAndFunction;
 
 public class PalindromeNo 
 {
-//	public static void main(String[] args) 
-//	{
-//		for(int i=1;i<=200;i++)
-//		{
-//			if(ispalindrome(i))
-//			System.out.println("is this no "+i+ " is palindrome " + ispalindrome(i));
-//		}
-//	}
+
 	public static boolean ispalindrome(int num)
 	{
 		int rev=0; int temp=num;
@@ -26,6 +19,6 @@ public class PalindromeNo
 	}
 	public static void main(String[] args) 
 	{
-		System.out.println(ispalindrome(123));
+		System.out.println(ispalindrome(121));
 	}
 }

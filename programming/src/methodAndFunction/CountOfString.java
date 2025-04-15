@@ -8,7 +8,7 @@ public class CountOfString {
 		int n=0;
 		int ss=0;
 		for(int i=0;i<=s.length()-1;i++) {
-			char ch=s.charAt(i);
+			char ch = s.charAt(i);
 			if(ch>='A'&& ch<='Z' || ch>='a' && ch<='z') {
 				a++;
 			}
@@ -19,8 +19,8 @@ public class CountOfString {
 				ss++;
 			}
 		}
-	System.out.println("alpha " +a);
-	System.out.println("numrec " +n);
-	System.out.println("special " +ss);
+		System.out.println("alpha "+ a);
+		System.out.println("numrec " +n);
+		System.out.println("special " +ss);
 	}	
 }

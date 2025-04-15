@@ -4,7 +4,7 @@ public class Sample
 {
 	public int a=1;
 	protected int b=2;
-	         int c=3;
+	int c=3;
 	private int d=4;
 	public void test1()
 	{
@@ -12,7 +12,7 @@ public class Sample
 	}
 	protected void test2()
 	{
-	System.out.println("protected");
+		System.out.println("protected");
 	}
 	void test3()
 	{

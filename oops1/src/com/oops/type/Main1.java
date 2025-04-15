@@ -1,4 +1,4 @@
-package com.oops.interfacetype;
+package com.oops.type;
 interface run
 {
 	int a=90;
